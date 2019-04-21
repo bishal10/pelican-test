@@ -2,15 +2,18 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'bishal'
-SITENAME = 'Test Blog'
+AUTHOR = u'Rojan Shrestha'
+SITENAME = u'PelicanTest'
 SITEURL = ''
 
+
+THEME = '/home/rojanshrestha/pelicantest/pelican-themes/clean-blog'
+THEME_STATIC_DIR = 'theme'
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Asia/Kathmandu'
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -32,4 +35,4 @@ SOCIAL = (('You can add links in your config file', '#'),
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+#RELATIVE_URLS = True
