@@ -12,6 +12,9 @@ from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 CONFIG = {
     # Local path configuration (can be absolute or relative to tasks.py)
     'deploy_path': 'output',
+    # Remote server configuration
+    'production': 'root@localhost:22',
+    'dest_path': '/var/www',
     # Port for `serve`
     'port': 8000,
 }
